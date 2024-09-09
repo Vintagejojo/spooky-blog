@@ -10,7 +10,7 @@ export default function Posts() {
         <h2 className="text-4xl font-bold dark:text-white/90">Blog</h2>
             <ul className="w-full">
                 { posts.map(post =>(
-                    <Listposts key={post.id} post={post} />
+                    <Listposts key={post.id} posts={post} />
                 ))}
             </ul>
         
